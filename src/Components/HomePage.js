@@ -102,7 +102,6 @@ const HomePage = () => {
                 </div>
                 <div className="loading-spinner">
                     <h1>Loading...</h1>
-                    <h1></h1>
                 </div>
             </div>
         );
