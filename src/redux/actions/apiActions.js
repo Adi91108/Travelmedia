@@ -25,6 +25,6 @@ export const fetchPosts = () => {
                 dispatch(fetchPostsSuccess(response.data))
                 // console.log("Api posts are:", response.data)
             })
-            .catch(error => dispatch(fetchPostsFailure(error)))
+            .catch(error => dispatch(fetchPostsFailure(error.message)))
     }
 }

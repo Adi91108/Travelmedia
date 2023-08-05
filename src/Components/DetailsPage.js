@@ -32,8 +32,7 @@ const DetailsPage = () => {
       <div className='details-container1' id='side'>
         <button
           className={`btn ${activeButton === 'detail' ? 'active' : ''}`}
-          onClick={handleDetailClick}
-        >
+          onClick={handleDetailClick}>
           Detail
         </button>
         <button
